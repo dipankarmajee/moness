@@ -7,7 +7,7 @@
 Generate a new Express.js application with MongoDB integration:
 
 ```shell
-npx create-express-mongo-template <project-name>
+npx moness <project-name>
 ```
 
 ## Features

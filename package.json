@@ -1,12 +1,12 @@
 {
   "name": "moness",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A CLI tool to generate Express.js and MongoDB boilerplate code",
   "main": "index.js",
   "files": [
-    "template/",
-    ".env",
-    ".gitignore"
+    "./template",
+    "./template/.env",
+    "./template/.gitignore"
   ],
   "bin": {
     "moness": "./index.js"
