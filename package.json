@@ -1,0 +1,27 @@
+{
+  "name": "moness",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate Express.js and MongoDB boilerplate code",
+  "main": "index.js",
+  "files": [
+    "template/",
+    ".env",
+    ".gitignore"
+  ],
+  "bin": {
+    "moness": "./index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dipankarmajee/moness"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "boilerplate",
+    "cli"
+  ],
+  "author": "dev-dipankar",
+  "license": "MIT"
+}
