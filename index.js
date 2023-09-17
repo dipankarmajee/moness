@@ -128,8 +128,8 @@ async function createTemplateFiles() {
   process.chdir("..");
 
   console.log(
-    `All processes executed successfully.
-    cd "${targetDir}" directory.`
+    `All processes executed successfully`,
+    `cd .\${targetDir}\ directory.`
   );
 }
 
