@@ -127,10 +127,9 @@ async function createTemplateFiles() {
   // Move back to the root directory
   process.chdir("..");
 
-  console.log(
-    `All processes executed successfully`,
-    `cd .\${targetDir}\ directory.`
-  );
+  console.log(`All processes executed successfully`);
+
+  console.log(`cd ${targetDir} directory.`);
 }
 
 // Create the template files and folders
