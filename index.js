@@ -62,6 +62,7 @@ function installNpmPackages() {
     "cors",
     "mongoose",
     "dotenv",
+    "body-parser",
     "--save",
   ];
   const installResult = spawnSync(installCmd, installArgs, {
