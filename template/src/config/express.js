@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 
-// Middleware
+/* MIDDLEWARE */
 app.use(morgan("dev"));
 app.use(cors());
 // parse application/x-www-form-urlencoded
@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// Routes
+/* ROUTES */
 app.use("/api/users", require("../routes/userRoutes"));
 
 module.exports = app;
